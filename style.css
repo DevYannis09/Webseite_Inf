@@ -1,0 +1,179 @@
+body{
+    background: #6040ff52;
+    background: linear-gradient(90deg, rgb(77, 127, 253) 0%, rgb(138, 174, 253) 49%, rgb(186, 231, 255));
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+/*---------- Startseite ---------- */
+
+.img_katze{
+    height: auto;
+    width: 230px;
+}
+
+.img_hase{
+    height: auto;
+    width: 100px;
+}
+
+.Button_Katze{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 550px;
+    background-color: rgb(115, 136, 255);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Button_Katze:hover{
+    background-color: rgb(62, 89, 245);
+}
+
+.Button_Hase{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 550px;
+    background-color: rgb(115, 136, 255);
+    border: 5px black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Button_Hase:hover{
+    background-color: rgb(62, 89, 245);
+}
+
+
+.Main-Container{
+    align-items: center;
+    max-width: 600px; 
+    margin: 50px auto; 
+    background-color: #fff;
+    padding: 20px; border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+}
+
+/*---------- Seite Katze ---------- */
+
+.Container_Katze{
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.startseite_button{
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 135px;
+    background-color: rgb(115, 136, 255);
+    border: 5px black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    left: 10px;
+}
+
+.startseite_button:hover{
+    background-color: rgb(62, 89, 245);
+}
+
+.hase_button{
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(115, 136, 255);
+    border: 5px black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    left: 180px;
+}
+
+.hase_button:hover{
+    background-color: rgb(62, 89, 245);
+}
+
+/*---------- Seite Hase ---------- */
+
+.Container_Hase{      
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto;
+    max-width: 800px; 
+}
+
+.katze_button{
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(115, 136, 255);
+    border: 5px black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    left: 180px;
+}
+
+.img_hase_seite{ 
+            width: 100%; 
+            max-width: 400px;
+            height: auto; 
+            border-radius: 8px; 
+            display: block; 
+            margin: 0 auto; 
+            border-color: rgb(0, 0, 0);
+            border-width: 3px;
+            border-style: solid;
+}
